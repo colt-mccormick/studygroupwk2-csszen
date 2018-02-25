@@ -28,17 +28,25 @@ p {
 
 ul {
     list-style: none; 
+    padding-left: 35px;  
 }
 
 li {
     font-size: 10px; 
-    padding-left: 25px; 
 }
 
 a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #fff; 
+}
+
+.link-under {
+    text-decoration: underline; 
+    color: #369; 
+}
 
 footer {
     background: linear-gradient(to bottom right, rgb(17, 89, 148) 5%, #4682B4);
@@ -46,10 +54,15 @@ footer {
     word-spacing: 20px; 
     font-size: 12px;
     border-top: 1px solid white; 
+    padding: 5px 20px 5px 20px; 
 }
 
 footer a {
     color: white; 
+}
+
+footer a:hover {
+    color: #9cf; 
 }
 
 /*_grid________________________________________*/
@@ -82,8 +95,11 @@ footer a {
 .blueheader {
     border: 1px solid white; 
     color: white; 
-    background: linear-gradient(to bottom right, rgb(17, 89, 148) 5%, #4682B4);
+    background: linear-gradient(to bottom right, rgb(15, 75, 124), #64a8ed);
     margin-bottom: 2px;
+    font-weight: normal; 
+    letter-spacing: -1px; 
+    word-spacing: -1px; 
 }
 
 .right-column h2, h3, p {
@@ -93,6 +109,13 @@ footer a {
 .summary {
     font-size: 11px; 
     padding-left: 25px; 
+    padding-right: 45px; 
+    margin-bottom: -1px; 
+}
+
+p.summary {
+    padding-left: 35px; 
+    padding-right: 55px; 
 }
 
 #header-image {
@@ -102,7 +125,39 @@ footer a {
 
 .left-section {
     border-right: 1px solid white;
-    border-bottom: 1px solid white; 
+    border-bottom: 1px solid white;    
+    padding-top: 5px; 
+    padding-bottom: 27px; 
+}
+.side-heading {
+    display:flex; 
+    font-size: 14px;  
+    margin: 5px 15px; 
+}
+
+.left-header {
+  margin-left: -10px; 
+}
+
+.main-links {
+  color: #000; 
+}
+
+.leftAbbr-style {
+    text-decoration: none; 
+}
+
+.designer{
+  color: #369; 
+}
+
+
+.download {
+    margin-top: -20px; 
+    font-size: 11px; 
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;  
+    padding: 25px 55px 25px 35px; 
 }
 
 .clearfix {
